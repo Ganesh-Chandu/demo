@@ -1,0 +1,20 @@
+TASK 1:
+
+1. load Review 1, Review 2, Review 3
+2. Create a list of positive words, negative words & neural words (Refer Review 1,2,3)
+3. Check count of positive ,negative neural words in each review files(1,2,3)
+4. Decide which review text should be processed.( Eliminiate the baised one)
+
+TASK 2:
+
+5. After selecting one review file perform the following task
+
+	5.1 Removing stop words from selected review file
+	5.2 Remove the following words: ingredients', 'live', 'person', 'went','came', 'gave', 'seen! and 'movie. 
+	5.3 Verify that the mentioned stop words have been removed from the input document.
+	Do Necessary Preprocessing Work
+	5.4 Remove $', ‘…’, ‘!!!’ , ‘—‘etc.
+	5.5 Remove ‘label1,’label2', ‘label__1' and 'label__2’.
+	5.6 Lemmatization.
+	5.7 POS Tags
+	5.8 Make the text ready for analysis in a format That the machine can understand - Vectorization
